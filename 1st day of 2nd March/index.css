@@ -10,6 +10,9 @@ header{
     position: fixed;
     display: flex;
 }
+body{
+    background-color: blue;
+}
 nav{
     padding-top: 1px;
 
@@ -39,11 +42,13 @@ li{
     padding: 1px 4px 4px 4px;
     margin: 12px 0px 0px 6px;
 }
-main{
-    height: calc(120vh - 51px - 32px);
+.main{
+    height: calc(100vh - 51px - 32px);
 background-color: orange;
+overflow: hidden;
 }
 footer{
+position: fixed;
 height: 32px;
 background-color: rgb(50, 143, 204);
 display: flex;
