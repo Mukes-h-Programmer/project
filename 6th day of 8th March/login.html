@@ -26,34 +26,73 @@
                     <a href="forgotten.html" id="fd">Forgotten password?</a>
                 </div>
                 <div class="underline"></div>
+                <div class="crna">
 
-                </div>
-                <!-- oncontextmenu="return false;" -->
-                <div class="dropdown">
-                    <div class="crna dropbtn" onclick="profile()">
-                        <a role="button" id="crna1" href="#">Create New Account</a>
-                    </div>
-                    <img id="cancel" src="cancel.png" onclick="cacle()" alt="">
-                    <div class="cancle">
-                        <div id="myDropdown" class="dropdown-content cancle">
-                            <div class="bk cancle">
-                                <div class="sm cancle">
+                    <div class="dropdown">
+                        <a onclick="profile()" class="crna dropbtn" role="button" id="crna1" href="#">Create New
+                            Account</a>
+                        <div id="myDropdown" class="dropdown-content">
+
+                            <div class="bk">
+                                <div class="sm">
+
                                     <div class="signup">Sign Up</div>
-                                    <p id="m">It's quick and easy.</p>
+                                    <div id="m">It's quick and easy.</div>
                                     <div class="underline2"></div>
-                                    <div class="firstname"></div>
-                                    <div class="surname"></div>
-                                    <div class="email"></div>
-                                    <div class="newpassword"></div>
+                                    <img id="cc" onclick="profile()" src="cancel.png" alt="">
+                                    <div class="firstname"> <input class="ip" type="text" placeholder="Firstname"  id="f" > </div>
+                                    <div class="surname" id="s" > <input class="ip" type="text" placeholder="Surname"> </div>
+                                    <div class="email">
+                                        <input class="ip1" type="text" placeholder="Mobile number or email address">
+                                    </div>
+                                    <div class="newpassword">
+                                        <input class="ip1" type="password" placeholder="New password">
+                                    </div>
+                                    
+                                    <div class="nativeDatePicker">
+                                        <label for="month-visit">What month would you like to visit us?</label>
+                                        <input type="month" id="month-visit" name="month-visit">
+                                        <span class="validity"></span>
+                                      </div>
+                                      <p class="fallbackLabel">What month would you like to visit us?</p>
+                                      <div class="fallbackDatePicker">
+                                        <div>
+                                          <span>
+                                            <label for="month">Month:</label>
+                                            <select id="month" name="month">
+                                              <option selected>January</option>
+                                              <option>February</option>
+                                              <option>March</option>
+                                              <option>April</option>
+                                              <option>May</option>
+                                              <option>June</option>
+                                              <option>July</option>
+                                              <option>August</option>
+                                              <option>September</option>
+                                              <option>October</option>
+                                              <option>November</option>
+                                              <option>December</option>
+                                            </select>
+                                          </span>
+                                          <span>
+                                            <label for="year">Year:</label>
+                                            <select id="year" name="year">
+                                            </select>
+                                          </span>
+                                        </div>
+                                      </div>
+
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
             </form>
         </main>
     </span>
 </body>
 <script src="login.js"></script>
+<script src="login2.js"></script>
 
 </html>

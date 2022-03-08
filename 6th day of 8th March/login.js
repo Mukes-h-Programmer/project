@@ -11,12 +11,11 @@ function validateform() {
         return false;
     }
 }
+
 function profile() {
     document.getElementById("myDropdown").classList.toggle("shoow");
   }
-  function cacle(){
-      document.getElementsByClassName("cancle").classList.toggle("show");
-  }
+  
   // Close the dropdown if the user clicks outside of it
   window.onclick = function(evetn) {
     if (!evetn.target.matches('.dropbtn')) {
