@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation form</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <div class="txt">
+        <h1>Coder's Era</h1>
+    </div>
+    <div class="txt1">
+        Bring the change with your code !
+    </div>
+    <span>
+        <main>
+            <form name="myform" method="post" action="https://www.wikipedia.org/" onsubmit="return validateform()">
+                <input class="s" id="eml" type="text" name="Email" placeholder="Email address or phone number"><br>
+                <input class="s" id="pd" type="password" name="password" placeholder="Password"><br>
+                <input class="k" type="submit" value="Log In"><br>
+                <div class="fdp">
+                    <a href="forgotten.html" id="fd">Forgotten password?</a>
+                </div>
+                <div class="underline"></div>
+
+                </div>
+                <!-- oncontextmenu="return false;" -->
+                <div class="dropdown">
+                    <div class="crna dropbtn" onclick="profile()">
+                        <a role="button" id="crna1" href="#">Create New Account</a>
+                    </div>
+                    <img id="cancel" src="cancel.png" onclick="cacle()" alt="">
+                    <div class="cancle">
+                        <div id="myDropdown" class="dropdown-content cancle">
+                            <div class="bk cancle">
+                                <div class="sm cancle">
+                                    <div class="signup">Sign Up</div>
+                                    <p id="m">It's quick and easy.</p>
+                                    <div class="underline2"></div>
+                                    <div class="firstname"></div>
+                                    <div class="surname"></div>
+                                    <div class="email"></div>
+                                    <div class="newpassword"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </main>
+    </span>
+</body>
+<script src="login.js"></script>
+
+</html>
